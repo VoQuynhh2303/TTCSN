@@ -1,0 +1,34 @@
+body{
+    background-image: url(nen.jfif);
+}
+.header{
+    color:white;
+   margin-left: 50px;
+   margin-top: 50px;
+}
+.header h1{
+    color:#cda45e;
+}
+nav ul{
+    width:250px;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li a{
+    border:0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px;
+    margin-left:50px;
+    font-weight: bold;
+    display: inline-block;
+    width:250px;
+    border-radius: 0;
+    border-right: 2px solid #cda45e;
+    font-size: 15px;
+    transition:0.3s;
+}
+nav ul li a:hover{
+    color: #cda45e;
+}
+

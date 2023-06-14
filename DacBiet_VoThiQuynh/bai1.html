@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width:1500px;
+            height:100px;
+            margin:auto;
+        }
+        header img {
+            width: 100%;
+            height: 100%;
+        }
+  /*     header img: hover{
+            transform: scale(2,2)  // phóng to ảnh khi zoom vào
+        }*/
+
+        nav ul {
+            background-color: rgb(124, 184, 124);
+            width: 250px;
+            padding: 0;
+            list-style-type: none;
+
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            padding:10px;
+            font-weight: bold;
+            display: inline-block;
+            border-bottom: 1px solid white;
+            width: 250px;
+
+        }
+
+        nav ul li:hover {
+            background-color: rgb(99, 97, 97);
+        }
+
+        .sub-menu {
+            position: absolute;
+            top: 0;
+            left: 250px;
+            display: none;
+        }
+
+        .menu {
+            position: relative;
+        }
+
+        .menu:hover .sub-menu {
+            display: block;
+        }
+
+        .section {
+            display: flex;
+            width: 1070px;
+            margin-top: 50px;
+        }
+
+        .section1 {
+            padding-top: 100px;
+        }
+
+        .section2 {
+            width: 60%;
+            /* height: 700px; */
+            margin-left: 30px;
+        }
+        .section2 a{
+            margin-top: 50px;
+            text-decoration: none;
+            color: black
+            
+        }
+
+        .section3 {
+            display: flex;
+            
+        }
+
+        .section3 img {
+            width: 200px;
+            height: 100px;
+        }
+
+        .section4 {
+            display: flex;
+            padding-top: 100px;
+        }
+
+        .section4 img {
+            height: 100px;
+            width: 200px;
+        }
+
+        .section34 {
+            display: block;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="header.jpg" alt="">
+    </header>
+    <section>
+        <div class="section">
+            <div class="section1">
+                <nav>
+                    <ul>
+                        <li><a href="#q">Trang chủ</a></li>
+                        <li class="menu"><a href="#q">Siêu thị sách</a>
+                            <ul class="sub-menu">
+                                <li><a href="#q">Sách mới</a></li>
+                                <li><a href="#q">Sách bán chạy</a></li>
+                                <li><a href="#q">Bảng giá danh mục sách</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#q">Siêu thị thành nghĩa</a></li>
+                        <li><a href="#q">Công ty in-DV in ấn</a></li>
+                        <li><a href="#q">Tuyển dụng</a></li>
+                        <li><a href="#q">Tin tức</a></li>
+                        <li><a href="#q">Kiểm kê kho</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section2">
+                <h3>Hệ thống siêu thị - Nhà sách</h3>
+                <ul>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    <li><a href="#q">Nhà sách Nguyễn Văn Cừ, chi nhánh quận 1</a></li>
+                    
+                </ul>
+            </div>
+            <div class="section34">
+                <div class="section3">
+                    <img src="hoa10.jpg" alt="">
+                    <p><b>Sách bộ giáo khoa lớp 10:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                        maxime id qui omnis, ipsam
+                        saepe explicabo dolor atque ullam nemo nam alias ut magni eum praesentium nostrum perferendis
+                        placeat magnam.
+                        Accusamus vitae enim minima tempore earum exercitationem nisi explicabo. Est mollitia dolor
+                        tempore provident commodi tenetur sed unde numquam. Rem voluptas fugiat quidem error
+                        perspiciatis sunt, corrupti cum sapiente. Id!</p>
+                </div>
+                <div class="section4">
+                    <img src="cay.jpg" alt="">
+                    <p><b>Hướng dẫn chăm sóc bể cá:</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                        quisquam doloremque iste ratione. Maxime magnam aut minima nesciunt libero, assumenda dolorum
+                        saepe consectetur, doloremque voluptatem nobis autem eligendi illo quisquam?</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Bản quyền CNTT_HAUI.com</p>
+    </footer>
+
+</body>
+
+</html>
